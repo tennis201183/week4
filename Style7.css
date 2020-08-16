@@ -1,198 +1,469 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>第四週主線作業</title>
-    <link rel="stylesheet" href="style6.css">
-    
-</head>
-<body>
-    <div class="container">
-        <div data-aos="fade-down"><div class="header">
-            <a class="navBar" href="#">
-                <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/dehaze-24px.png?raw=true" alt="">
-            </a>
-            <h1><a href="#">logo</a></h1>
-            <ul class="menu">
-                <li><a href="#">首頁</a></li>
-                <li><a href="#">甜點</a></li>
-                <li><a href="#">登入</a></li>
-                <li><a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/shopping_cart.png" alt="購物車"></a></li> 
-        </ul>
-    </div>
-        </div>
-        <div class="banner">
-            <div data-aos="zoom-in-up"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/banner.png" alt="橫幅">
-            </div></div>
-        <div class="content">
-            <div class="sidebar">
-                <div data-aos="fade-up-right"><h2>甜點類別</h2></div>
-                <ul>
-                <div data-aos="fade-up-right"><li><a href="#">所有甜點（48）</a></li></div>
-                <div data-aos="fade-up-right"><li><a href="#">本日精選（10）</a></li></div>
-                <div data-aos="fade-up-right"><li><a href="#">人氣推薦（26）</a></li></div>
-                <div data-aos="fade-up-right"> <li><a href="#">新品上市（12）</a></li></div>
-            </ul>
-        </div>
-            <div class="product">
-            <ul>
-                <div data-aos="zoom-in-up"><li>
-                    <div class="sales">
-                        <h2>本日精選</h2>
-                        <a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/favorite_border.png" alt="愛心"></a>
-                    </div>
-                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/p-1.png" alt="產品一">
-                    <div class="detail">
-                    <h3>焦糖馬卡龍</h3><span>$ 450</span>
-                </div>
-                    
-                    <input class="goshop" type="submit" value="加入購物車">
-                
-                </li></div>
-                <div data-aos="zoom-in-up"><li>
-                    <div class="sales">
-                        <h2>本日精選</h2>
-                        <a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/favorite_border.png" alt="愛心"></a>
-                    </div>
-                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/p-2.png" alt="產品二">
-                    <div class="detail">
-                        <h3>焦糖馬卡龍</h3><span>$ 450</span>
-                    </div>
-                    
-                    <input class="goshop" type="submit" value="加入購物車">
-                    
-                </li>
-            </div>
-                <div data-aos="zoom-in-up"><li>
-                    <div class="sales">
-                        <h2>本日精選</h2>
-                        <a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/favorite_border.png" alt="愛心"></a>
-                    </div>
-                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/p-3.png" alt="產品三">
-                    <div class="detail">
-                        <h3>焦糖馬卡龍</h3><span>$ 450</span>
-                    </div>
-                        
-                    <input class="goshop" type="submit" value="加入購物車">
-                    
-                </li>
-            </div>
-            <div data-aos="zoom-in-up"><li>
-                    <div class="sales">
-                        <h2>本日精選</h2>
-                        <a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/favorite_border.png" alt="愛心"></a>
-                    </div>
-                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/p-4.png" alt="產品四">
-                    <div class="detail">
-                        <h3>焦糖馬卡龍</h3><span>$ 450</span>
-                    </div>
-                        
-                    <input class="goshop" type="submit" value="加入購物車">
-                    
-                </li>
-                </div>
-                <div data-aos="zoom-in-up"><li>
-                    <div class="sales">
-                        <h2>本日精選</h2>
-                        <a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/favorite_border.png" alt="愛心"></a>
-                    </div>
-                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/p-5.png" alt="產品五">
-                    <div class="detail">
-                        <h3>焦糖馬卡龍</h3><span>$ 450</span>
-                    </div>
-                        
-                    <input class="goshop" type="submit" value="加入購物車">
-                    
-                </li>
-            </div>
-            <div data-aos="zoom-in-up"><li>
-                    <div class="sales">
-                        <h2>本日精選</h2>
-                        <a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/favorite_border.png" alt="愛心"></a>
-                    </div>
-                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/p-6.png" alt="產品六">
-                    <div class="detail">
-                        <h3>焦糖馬卡龍</h3><span>$ 450</span>
-                    </div>
-                        
-                    <input class="goshop" type="submit" value="加入購物車">
-                    
-                </li>
-            </div>
-            </ul>
-            </div>
-        </div>
-        <div data-aos="fade-up"><ul class="btn">
-                  <li class="arrow"><a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/arrow_left.png" alt=""></a></li>
-                  <li class="pages"><a href="#">1</a></li>
-                  <li class="pages"><a href="#">2</a></li>
-                  <li class="pages"><a href="#">3</a></li>
-                  <li class="arrow"><a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/arrow_right.png" alt=""></a></li>
-      </ul>
-    </div>
-    </div> 
-    <div class="subscribe">
-        <div data-aos="zoom-in-right"><div class="subscribe-inner section">
-        <div class="left">
-            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/logo-light.svg" alt="">
-            <h2>訂閱你我的甜蜜郵件</h2>
-       </div>
-       <form class="email" name="email" action="#">
-        <label for="mail">
-            <img src="https://hexschool.github.io/webLayoutTraining1st/student-week1/mail-24px.png" alt="">
-            <input id="mail" type="text"  name="mail"></label>
-            <input type="submit" value=""></input>  
-        </form>
-    </div>
-    </div>
-       </div>
-    <div class="footer">
-        <div data-aos="zoom-out-down"><div class="footer-inner section">
-         <div class="info">
-        <div>
-         <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/logotype-sm-dark.svg" alt="">
-        </div>
-        <div class="contact">
-            <ul>
-         <li><h3>07-1234-5678</h3></li>
-         <li><h3>sweetaste@email.com</h3></li>
-         <li><h3>800 高雄市新興區幸福路 520 號</h3></li>
-        </ul>
-    </div>
-         </div>
-         <h3 class="slogan">今天是個─ <br>&nbsp;吃甜點的好日子。</h3>
-         <ul class="social">
-         <li><a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/ic-line%40.svg" ></a></li>
-         <li><a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/ic-facebook.svg" alt=""></a></li>
-         </ul>
-         <p>© 2018 Sweetaste* All Rights Reserved</p>
-       </div>
-    </div>
-    </div>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
- AOS.init({// Global settings:
-  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-  initClassName: 'aos-init', // class applied after initialization
-  animatedClassName: 'aos-animate', // class applied on animation
-  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-  
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
-  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-  offset: 300, // offset (in px) from the original trigger point
-  delay: 200, // values from 0 to 3000, with step 50ms
-  duration: 700, // values from 0 to 3000, with step 50ms
-  easing: 'ease', // default easing for AOS animations
-  once: true, // whether animation should happen only once - while scrolling down
-  mirror: false, // whether elements should animate out while scrolling past them
-  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-});
-</script>
-</body>
-</html>
+.container{
+  max-width: 940px;
+  margin: 0 auto;
+}
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+a{
+  display: block;
+  text-decoration: none;
+}
+
+/*-----------------------header------------------------*/
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.navBar {
+  display: none;
+  padding: 5px;
+  border-radius: 5px; 
+}
+.header h1{
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/logo-all-dark.svg);
+  background-repeat:no-repeat;
+  width: 210px;
+  height: 39px;
+  display: block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.header .menu{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.menu li {
+  padding-left: 60px;
+}
+.menu li a{
+  font-size: 16px;
+  line-height: 22px;
+  color: #3F5D45;
+}
+
+/*----------------------banner----------------------------------*/
+.banner img{
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+
+/*----------------------content------------------*/
+
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+
+/*-------------------sidebar---------------------*/
+
+.sidebar{
+  width:30%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 33px;
+}
+.sidebar h2{
+  background-color:#3F5D45 ;
+  color: #EAF0ED;
+  font-weight: bold;
+	
+  border: #EAF0ED solid 1px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.sidebar li a{
+  color: #3F5D45;
+  font-weight: bold;
+
+  border: #EAF0ED solid 1px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.sidebar li a:hover{
+  background-color: #EAF0ED;
+}
+
+/*--------------------product-----------------------*/
+
+.product{
+  width: 70%;
+}
+.product ul{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+	
+  margin-bottom: 150px;
+}
+
+.product li{
+  padding-left:20px;
+  padding-bottom:20px;
+  position: relative;
+}
+
+.product .sales img{
+  position: absolute;
+  top: 19px;
+  left: 258px;
+}
+.product .sales h2{
+  color: #EAF0ED;
+  background-color: #3F5D45;
+  font-size: 16px;
+  writing-mode: vertical-lr;
+  letter-spacing: 5px;
+
+  padding: 10.08px 10px 9.24px 10px;
+
+  position:absolute;
+  left: 40px;
+  top: 0px;
+}
+.detail{
+  display: flex;
+  max-width: 300px;	
+  align-items:center;
+}
+.detail h3{
+  width: 60%;
+  font-size: 20px;
+  line-height: 20px;
+  color: #3F5D45;
+  text-align: center;
+  
+  border-left: 1px solid #EAF0ED;
+  border-right: 1px solid #EAF0ED;
+  padding: 14px 33px 14px 33px;
+}
+.detail span{
+  width: 40%;
+  color: #3F5D45;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  text-align: center;
+
+  border-right: 1px solid #EAF0ED;
+  padding: 14px 20px 14px 25px;
+}
+.goshop{
+  width: 100%;
+  font-size: 24px;
+  color:#3F5D45;
+  background-color: #EAF0ED;
+  line-height: 33px;
+  text-align: center;
+  
+  border:#EAF0ED 1px solid;
+  padding:16px 0px 16px 0px;
+}
+.goshop:hover{
+	color:#EAF0ED;
+	background-color: #3F5D45;
+  border:#3F5D45 1px solid;
+}
+
+/*------------------------btn-----------------------*/
+
+.btn{
+  display: flex;
+  justify-content:flex-end;
+  
+  margin-bottom:60px;
+}
+.btn a{
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  line-height: 20px;
+  color: #3F5D45;
+  text-decoration:none;
+	
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+	
+  border: 1px solid #EAF0ED;
+}
+.btn .pages a:hover{
+  color: #EAF0ED;
+  background-color: #3F5D45;
+}
+
+/*------------------------subscribe-----------------------*/
+
+.subscribe{
+  background-color: #3F5D45;
+}
+.section{
+  max-width: 780px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.subscribe-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left{
+  display: flex;
+  align-items: center;
+}
+.left h2{
+  font-size: 24px;
+  line-height: 33px;
+  color: #EAF0ED;
+  
+  padding:42px 0px 41px 0px;
+}
+.left img{
+  max-width: 100%;
+  height: 40px;
+
+  padding-right:20px;
+}
+.email{
+  display: flex;
+}
+
+.email label{
+  display: flex;
+  width:300px;
+  position: relative;
+}
+
+.email label img{
+  position: absolute;
+  top: 16px;
+  left:16px;
+}
+
+.email input[type="text"]{
+  width: 100%;
+  cursor:pointer;
+  border: none;
+  outline: none;
+  text-indent: 50%;
+}
+.email input[type="submit"]{
+  width: 64px;
+  background-color: #FFE180;
+  border: #FFE180 solid 1px;
+  padding: 20px 0px;
+  
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/student-week1/arrow_forward-24px.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*------------------------footer-----------------------*/
+
+.footer{
+  background-color:#EAF0ED ;
+  padding-bottom: 30px;
+}
+.footer-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.info img{
+  width: 171px;
+  margin-top: 38.9px;
+  margin-bottom: 115.5px;
+}
+.contact h3{
+  font-size: 16px;
+  line-height: 24px;
+  color:#3F5D45 ;
+}
+.slogan{
+  padding-top:30px;
+  width: 50%;
+  writing-mode: vertical-rl;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 35px;
+  color: #3F5D45;
+  letter-spacing: 5px;
+}
+.social{
+  display: flex;
+  width: 50%; 
+}
+
+.social img{
+  width: 32px;
+  height: 32px;
+}
+.social li a{
+  margin-right:8px;
+  margin-top: 30px;
+}
+.footer-inner p{
+  color: #3F5D45;
+  margin-top: 46.31px;
+} 
+/*RWD*/
+/*------------------------max-width:991px---------------------*/
+@media (max-width:991px){
+  .container{
+    max-width: 767px;
+  }
+  .banner img{
+    margin-bottom: 0px;
+  }
+  .content{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .product li{
+    padding-left: 0px;
+  }
+  .product ul{
+    justify-content:space-around;
+  }
+  .product{
+    width: 100%;
+  }
+  .sidebar{
+    width: 100%;
+  }
+  .sidebar ul{
+   margin-bottom: 20px;
+ }
+  .btn{
+   justify-content: center;
+ }
+ .subscribe-inner{
+  max-width: 767px;
+  flex-direction: column;
+  align-items: center;
+ }
+.left h2{
+  font-size: 20px;
+  line-height: 24px;
+  padding:10px 0px 0px 0px;
+}
+.left img{
+  margin:10px 0px 0px 0px;
+}
+.email{
+  margin: 10px 0px 20px 0px;
+}
+.footer-inner{
+  max-width: 767px;
+}
+}
+/*------------------------max-width:768px---------------------*/
+@media (max-width:768px){
+  
+  .header{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .menu li {
+    padding-left: 0px;
+  }
+  .menu li:nth-child(1), .menu>li:nth-child(2), .menu>li:nth-child(3) {
+    display: none;
+  }
+  .navBar{
+  display: block;
+  }
+  .footer-inner{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .footer-inner .slogan{
+    display: none;
+  }
+  .footer-inner{
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: stretch;
+  }
+  .info img{
+    margin-bottom: 30px;
+  }
+  .social img{
+    margin-top: 30px;
+  }
+  .footer-inner p{
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+}
+/*------------------------max-width:414px---------------------*/
+@media (max-width:414px){
+  .email{
+    width: 70%; 
+  }
+  .product li{
+    width:100%
+  }
+  .product ul{
+    margin-right:20px
+  }
+}
