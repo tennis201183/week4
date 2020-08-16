@@ -143,7 +143,9 @@ a{
 
 /*--------------------product-----------------------*/
 
-
+.product{
+  width: 70%;
+}
 .product ul{
   display:flex;
   justify-content:space-between;
